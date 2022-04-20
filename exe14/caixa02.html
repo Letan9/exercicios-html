@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px; 
+            border-radius: 10px 0px; 
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);  
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        nav{
+            background-color: rgb(134, 133, 133);
+            padding: 6px;
+            box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.349);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        article > aside{
+            background-color: rgba(158, 155, 155, 0.39);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin:0px
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Sobre mim Lenta</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+
+    </header>
+    <main>
+        <section id="noticias">
+            <p>Esportes Politica Tecnologia </p>
+            <section>
+                
+                    <article>
+                        <h2>Noticia sobre o Brasil</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad debitis ipsam assumenda atque, repudiandae obcaecati officiis corrupti expedita rem blanditiis consequatur exercitationem delectus. Est totam harum quia, corrupti expedita sit.</p>
+                        <aside>
+                                
+
+                            <aside>
+                                <p>Artigo da faculdade</p></aside>                   
+                        </aside>
+                    </article>
+                <article>
+
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido para o letan</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
